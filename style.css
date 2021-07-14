@@ -10,7 +10,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400&family=Dela+Gothic+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:ital,wght@0,200;0,400;1,200;1,400&display=swap');
 
 /* cambien aquí sus colores, necesitan definir tres */
 
@@ -24,7 +24,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Andika New Basic", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     background: var(--segundocolor);
     color: var(--colorclaro);
@@ -42,7 +42,7 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Dela Gothic One", cursive;
+    font-family: 'DM Serif Display', serif;
     font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ en todos los casos la imagen debería pesar menos de 300kb
 
 header {
     background-color: var(--segundocolor);
-    background-image: url("img/relacion-3x4.png");
+    background-image: url("img/imagenchica.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,13 +82,13 @@ header {
 
 @media (min-width: 576px) {
     header {
-        background-image: url("img/relacion-4x3.png");
+        background-image: url("img/medianaimagen.jpg");
     }
 }
 
 @media (min-width: 992px) {
     header {
-        background-image: url("img/relacion-21x9.png");
+        background-image: url("img/grandeimagen.jpg");
     }
 }
 
