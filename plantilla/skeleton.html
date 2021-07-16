@@ -188,14 +188,14 @@ En la Biodiversidad hay 8.300 razas de animales conocidas, el 8% está extinto y
         <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
-                type: "line",
+                type: "doughnut",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["% de tierra que se ve afectada por la degradación"],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
-                            backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
+                            label: "52%,48%",
+                            data: [52,48],
+                            backgroundColor: ["#98cbb5", "#419384", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
                             borderWidth: 1,
                         },
                     ],
